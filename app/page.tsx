@@ -1,6 +1,7 @@
 import { Layout } from '@/components/layout';
 import { Header } from '@/components/header';
 import { Table } from '@/components/table';
+import '@/styles/index.css';
 
 export default function IndexPage() {
   return (

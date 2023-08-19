@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        main: ['IBM Plex Sans', 'sans-serif'],
+      },
+      colors: {
+        primary: {
+          DEFAULT: '#052B52',
+          light: '#42576D',
+        },
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -15,6 +24,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: ['@tailwindcss/forms'],
 }
 export default config
