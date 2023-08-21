@@ -1,5 +1,3 @@
-"use client"
-
 import { useMemo } from 'react';
 import Image from 'next/image';
 import type { Category } from '@/hooks/useSeatCategories';

@@ -1,5 +1,4 @@
 "use client"
-
 import Image from 'next/image';
 import arrowIcon from '@/assets/arrow.svg';
 import { SeatChart } from '@/components/seat-chart';

@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from 'react';
 import type { Category } from '@/hooks/useSeatCategories';
 import { SeatInput } from './seat-input';

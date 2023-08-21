@@ -1,5 +1,3 @@
-"use client"
-
 import type { Category } from '@/hooks/useSeatCategories';
 import { Circle } from '../table/circle';
 
